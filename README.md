@@ -1,6 +1,6 @@
 ## Team:
 
-Katie Martin - @krmartin3
+Katie Martin - @katrmartin
 
 Berenice Rascon - @berenicerascon
 
