@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sentiment Analyzer</title>
+</head>
+<body>
+    <h1>Hotel Review Sentiment Analyzer</h1>
+    <form method="POST">
+        <textarea name="review" rows="5" cols="60" placeholder="Enter your review..."></textarea><br>
+        <button type="submit">Analyze</button>
+    </form>
+
+    {% if sentiment %}
+        <h2>Prediction: {{ sentiment }}</h2>
+        <p style="color:gray;">I am: {{ confidence }}% in my prediction</p>
+    {% endif %}
+</body>
+</html>
