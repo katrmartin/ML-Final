@@ -3,9 +3,11 @@ from joblib import load
 
 app = Flask(__name__)
 
-# Load model & vectorizer
+# Load top model & vectorizer
 model = load("sentiment_analysis.joblib")
 vectorizer = load("vectorizer.joblib")
+
+
 
 @app.route("/", methods=["GET", "POST"])
 def index():
