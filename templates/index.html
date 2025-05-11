@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Review Sentiment Analyzer</title>
+    <link rel="stylesheet" href="static/styles.css">
+</head>
+<body>
+    <div class="container">
+      <h1>✈️🧳 Hotel Review Sentiment Analyzer</h1>
+  
+      <p class="note">✨ Note: This model is trained only to recognize clear <b>positive</b> and <b>negative</b> reviews. It tends to struggle with neutral or subtle language!</p>
+  
+      <form method="POST">
+          <textarea name="review" placeholder="Type or paste your hotel review here..."></textarea><br>
+          <button type="submit">✨ Analyze My Review</button>
+      </form>
+  
+      {% if sentiment %}
+          <div class="result">
+              <h2>Prediction: {{ sentiment }}</h2>
+              <p class="confidence">I am {{ confidence }}% confident in my guess!</p>
+          </div>
+      {% endif %}
+    </div>
+  </body>  
+</html>

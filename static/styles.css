@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff6fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.05);
+    width: 100%;
+    max-width: 640px;
+}
+
+h1 {
+    color: #b64682;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+p.note {
+    background-color: #ffe3ed;
+    border-left: 4px solid #ff8ac0;
+    padding: 1rem;
+    font-size: 0.95rem;
+    color: #884466;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+}
+
+textarea {
+    width: 100%;
+    padding: 0.9rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    resize: vertical;
+    min-height: 120px;
+}
+
+button {
+    margin-top: 1rem;
+    padding: 0.7rem 1.5rem;
+    font-size: 1rem;
+    background-color: #b64682;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #9e3a6b;
+}
+
+.result {
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: #fef4f9;
+    border-left: 5px solid #e67aa2;
+    border-radius: 8px;
+}
+
+.confidence {
+    color: #666;
+    font-size: 0.95rem;
+    margin-top: 0.5rem;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 1rem;
+        align-items: flex-start;
+    }
+
+    .container {
+        padding: 1.5rem;
+        border-radius: 12px;
+        box-shadow: none;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    textarea {
+        font-size: 1rem;
+    }
+
+    button {
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    .note {
+        font-size: 0.9rem;
+    }
+
+    .confidence {
+        font-size: 0.9rem;
+    }
+}
