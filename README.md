@@ -11,10 +11,13 @@
  ## How to use the app 
  1. Access the app through this link: [Hotel Review Sentiment Analyzer](https://hotel-reviews-app-72640576c634.herokuapp.com/)
  2. The app is deployed through Heroku, this is the landing page:
+    
     <img src="images/image.png" alt="alt text" width="300">
  3. In the text box, paste a hotel review or write your own.
+    
     <img src="images/image-1.png" alt="alt text" width="300">
  4. Click "✨Analyze My Review"
+    
     <img src="images/image-2.png" alt="alt text" width="300">
  5. The app analyzes your review and predicts whether the sentiment is positive or negative, along with a confidence score indicating how certain it is.
 
