@@ -1,4 +1,4 @@
-# Hotel Review Sentiment Analyzer - Machine Learning Final 
+# ✨ Hotel Review Sentiment Analyzer - Machine Learning Final 
 
 ## Team Members
 
@@ -8,7 +8,7 @@
  |Berenice Rascon |brascon@mavs.coloradomesa.edu|@berenicerascon|
  |Molly Kaipus |mkaipus@mavs.coloradomesa.edu |@mkaipus|
 
- ## How to use the app 
+ ## 💻 How to use the app 
  1. Access the app through this link: [Hotel Review Sentiment Analyzer](https://hotel-reviews-app-72640576c634.herokuapp.com/)
  2. The app is deployed through Heroku, this is the landing page:
     
@@ -25,7 +25,7 @@
     <img src="images/image-4.png" alt="alt text" width="300">
  6. Repeat by inputing as many reviews as you'd like!
 
- ## Self Grade & Justification
+ ## ✅ Self Grade & Justification
 
 - Full justification can be found here: [Self Grade & Justification](self-grade/MLProject-SelfGrading.pdf)
 
